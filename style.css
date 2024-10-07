@@ -195,5 +195,25 @@ a {
         height: auto;
       }
 }
+
+.icon_a {
+    color: white; /* Color inicial */
+    transition: color 0.3s ease; /* Duración de 0.3s y transición suave */
+}
+
+.icon_a:hover {
+    color: #78bcd3; /* Color en hover */
+}
+
+
+.icon_svg {
+    fill: white; /* Color inicial */
+    transition: fill 0.3s ease; /* Transición suave */
+  }
+  
+.icon_svg:hover {
+    fill: #78bcd3; /* Color al hacer hover, puedes cambiar a otro si prefieres */
+  }
+  
     
   
